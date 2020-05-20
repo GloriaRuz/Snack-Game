@@ -6,7 +6,10 @@ let snake = [];
     x: 8 * box,
     y: 8 * box
 }
+<<<<<<< HEAD
 let direction = "right"; 
+=======
+>>>>>>> 4729e8157e3838c41e71547a6e208f5bd38bc3b1
 
 function criarBG() {
     context.fillStyle = "lightgreen";
@@ -15,11 +18,16 @@ function criarBG() {
 
 function criarCobrinha(){
     for(i=0; i < snake.length; i++){    
+<<<<<<< HEAD
         context.fillStyle = "pink";
+=======
+        context.fillStyle = "green";
+>>>>>>> 4729e8157e3838c41e71547a6e208f5bd38bc3b1
         context.fillReact(snake[i].x, snake[i].y, box, box);
     }
 }
 
+<<<<<<< HEAD
 function iniciarJogo(){
     criarBG();
     criarCobrinha();
@@ -44,3 +52,7 @@ function iniciarJogo(){
 }
 
 let jogo = setInterval(iniciarJogo, 100);
+=======
+criarBG();
+criarCobrinha();
+>>>>>>> 4729e8157e3838c41e71547a6e208f5bd38bc3b1
